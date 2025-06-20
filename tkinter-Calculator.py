@@ -4,8 +4,11 @@ root = Tk()
 
 # root.title(), like the window name in the close button row
 root.title('Cal : )')
-# add the window icon
-root.iconbitmap(r'C:/Users/4Raisan/Desktop/GitHub/Tkinter-GUI-making-/Part-06-(iconbitmap).ico')
+# add the window icon (try-catch block for handle icon errors)
+try:
+    root.iconbitmap("tcicon.ico")  # place an .ico in same folder
+except Exception:
+    pass
 
 # input
 e = Entry(root, width=20,  borderwidth=5, font=('Courier', 12, 'bold'))
