@@ -25,5 +25,5 @@ Supports:
 - Tkinter (comes pre-installed with Python)
 
 ### Run
-tkinter-Calculator.exe
-tkinter-Calculator.py
+ - tkinter-Calculator.exe
+ - tkinter-Calculator.py
